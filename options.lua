@@ -19,6 +19,8 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     loaded_ruby_provider = 0,        -- ruby provider
     loaded_perl_provider = 0,
+    python3_host_prog = "/usr/bin/python3",
+    loaded_node_provider = 0,
   },
 }
 -- If you need more control, you can use the function()...end notation
